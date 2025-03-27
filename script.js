@@ -1,10 +1,4 @@
-const todo = JSON.parse(localStorage.getItem('todo')) || [{
-  name : 'Wash Dishes',
-  dueDate : '2025-03-05 16:22' 
-}, {
-  name : 'Watch Youtube',
-  dueDate : '2025-03-05 16:22' 
-}];
+const todo = JSON.parse(localStorage.getItem('todo')) || [];
 
 const completedTodo = JSON.parse(localStorage.getItem('completed')) || [{
   name : 'Wash Dishes',
