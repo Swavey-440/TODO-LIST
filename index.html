@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>Swavey To-Do List <img src="images/icon.png.jpg" alt="Todo Icon"></h2>
+
+      <div class="row">
+        <input type="text" class="input-box" placeholder="Add your text">
+        <input type="datetime-local" class="date date-input">
+        <button class="js-add-button">Add</button>
+      </div>
+
+      <div class="error-message"></div>
+
+      <div class="head-two">
+        <p>Todo</p> 
+        <div class="todo">0</div>
+      </div>
+
+      <div class="list-container">
+      </div>
+
+      <div class="head-two">
+        <p class="completed">Completed</p> 
+        <div class="no-completed-todo">0</div>
+      </div>
+
+      <div class="completed-list-container">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
